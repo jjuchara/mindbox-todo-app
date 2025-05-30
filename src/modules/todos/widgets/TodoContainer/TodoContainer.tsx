@@ -2,10 +2,8 @@ import { Button } from "@chakra-ui/react"
 import { FooterLayout, TodoLayout } from "@/components"
 import { useTodos } from "../../hooks"
 import { FILTER_BUTTON_LIST } from "../../constants"
-import { TodoCounter } from "../../components/TodoCounter"
+import { TodoCounter, TodoInputForm, TodoItemList } from "../../components"
 import { TodoFilterButtons } from "../../components/TodoFilterButtons/TodoFilterButtons"
-import { TodoInputForm } from "../../components/TodoInputForm"
-import { TodoItemList } from "../../components/TodoItemList"
 
 export function TodoContainer() {
   const {

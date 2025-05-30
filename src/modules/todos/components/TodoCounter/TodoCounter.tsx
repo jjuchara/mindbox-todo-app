@@ -1,4 +1,4 @@
-import { Badge, Flex, Text } from "@chakra-ui/react"
+import { Flex, Text } from "@chakra-ui/react"
 
 export type TodoCounterType = {
   todoLength: number

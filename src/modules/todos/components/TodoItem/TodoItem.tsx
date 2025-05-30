@@ -3,7 +3,6 @@ import { HStack, IconButton, Input, Text } from '@chakra-ui/react'
 import { useState } from 'react'
 import type { TodoItemType } from '../../types'
 import { LuPencil, LuSave, LuTrash } from 'react-icons/lu'
-import { useTodos } from '../../hooks'
 
 type TodoItemPropsType = {
   todo: TodoItemType
